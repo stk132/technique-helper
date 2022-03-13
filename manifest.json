@@ -1,0 +1,12 @@
+{
+	"name": "Technique-Helper",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Technique Item Search Helper",
+	"content_scripts": [{
+	  "matches": ["https://www.technique.co.jp/items.html*", "https://www.technique.co.jp/item/*"],
+	  "js": [
+		"content.js"
+	  ]
+	}]
+  }
